@@ -1,5 +1,4 @@
-# CRM_LTR
-Learning to Rank E-Commerce Products from Logged Data
+# Learning to Rank E-Commerce Products from Logged Data
 
 This repository hosts the experimental code and commercial dataset used in SIGIR 2019 paper "Learning to Rank E-Commerce Products from Logged Data".
 
