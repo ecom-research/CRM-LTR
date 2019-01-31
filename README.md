@@ -21,7 +21,7 @@ qid: Unique identifier of user query. Consecutive integer values starting with 0
 addn_feat: Additional features corresponding to the product returned by the system. Float values separated by comma stored as string.<br />
 relevance: click or order binary relevance indicator<br />
 
-Click_rel_train.csv does not contain relevance column, but instead contains following additional columns:<br />
+*Click_rel_train.csv* does not contain relevance column, but instead contains following additional columns:<br />
 control_policy: control policy probability of taking the action<br />
 loss: observed loss for action selected by the system<br />
 action: action sampled from the control policy<br />
