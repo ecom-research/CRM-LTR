@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import math
 
 def batch_gen(X, batch_size):
     # Borrowed from https://github.com/shashankg7/Keras-CNN-QA
