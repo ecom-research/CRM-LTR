@@ -2,10 +2,12 @@
 
 This repository hosts the experimental code used in SIGIR 2019 paper "Learning to Rank E-Commerce Products from Logged Data".
 
-<i>crm_training.ipynb</i>: Jupyter notebook with code for training CRM model.<br />
-<i>model.py</i>: Keras implementation of CNN for short text pairs as well as counterfactual risk loss function.<br />
-<i>evaluation_metrics.py</i>: contains function get_trec_eval_metrics(). This function creates submission file for trec_eval (https://trec.nist.gov/trec_eval/), stores it in trec_eval folder and runs evaluation.<br />
-<i>utils.py</i>: contains function batch_gen() used to generate batches at training time.<br />
+<ul>
+<li><i>crm_training.ipynb</i>: Jupyter notebook with code for training CRM model.</li>
+<li>model.py</i>: Keras implementation of CNN for short text pairs as well as counterfactual risk loss function.</li>
+<li>evaluation_metrics.py</i>: contains function get_trec_eval_metrics(). This function creates submission file for trec_eval (https://trec.nist.gov/trec_eval/), stores it in trec_eval folder and runs evaluation.</li>
+<li>utils.py</i>: contains function batch_gen() used to generate batches at training time.</li>
+</ul>
 
 Datasets can be accessed via following links:<br />
 <i>Click logs:</i> https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/click_logs.7z<br />
