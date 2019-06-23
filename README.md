@@ -23,10 +23,12 @@ This repository hosts the experimental code used in SIGIR 2019 paper "Learning t
 <h3>E-commerce logs datasets for query-document text pairs</h3>
 Datasets can be accessed via following links:<br />
 <ul>
-<li><i>Click logs:</i> https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/click_logs.7z</li>
+  will be uploaded soon
+<!--   
+<li><i>Click logs:</i>  https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/click_logs.7z</li>
 <li><i>Order logs:</i> https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/order_logs.7z</li>
 <li><i>Aggregated train datasets for supervised loss functions:</i> https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/train_supervised.7z</li>
-<li><i>Embeddings:</i> https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/embeddings.7z</li>
+<li><i>Embeddings:</i> https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/embeddings.7z</li> -->
 </ul>  
 
 Each dataset folder contains 3 types of files, with 3 files for each type (9 files in total), e.g. click logs contain following files
