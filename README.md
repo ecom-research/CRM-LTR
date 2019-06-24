@@ -33,10 +33,12 @@ This zip file contains <i>embeddings.npy</i>, which is the embedding matrix, wit
 
 
 
-This zip file has 10 files that contain the information that maps words ( of queries and product title) to their emeddings in the embedding matrix. Each row in these files is aligned with respective entry in tran, dev, test and log files.
+
 <li><i>Embeddings_Index_files:</i> https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/Embeddings_Index_files.7z</li>
+This zip file has 10 files containing indices which maps words ( of queries and product title) to their emeddings in the embedding matrix. Each row in these files is aligned with respective entry in tran, dev, test and log files.
 <br />
-<i>Queries_{train|dev|test}.npy</i> files contain numpy arrays of query word indices used for lookup in embedding matrix. User query contains one or multiple search words. Words are integer values, that represent the position of GloVe vector in word-embedding matrix. Although original queries have various length, we padded each query with value 1738783, which is the position of randomly generated vector in embedding matrix (model requires queries of equal length).<br /><br />
+<i>Queries_{train|dev|test}.npy</i> files contain numpy arrays of query word indices used for lookup in embedding matrix. Most LTR neural networks require the length of query and document be fixed for all samples. 
+Since number of words in queries and products varies a lot, we set query length to 40 and length of product title to 48. We do padding with randomly generated vector for texts with lower length and cut-off texts of higher length. <br /><br />
 <i>Products_{train|dev|test}.npy</i> files are numpy arrays of the title of the product returned by the system as a response to the query. Similar to query it contains integer values representing the position of GloVe vector in word-embedding matrix. Product title was also padded with 1738783 values.<br />
 <i>{click|order}_logs_queries.npy</i> files are numpy arrays of embedding indices of the queries in {click|order} logs. <br />
 <i>{click|order}_logs_products.npy</i> files are numpy arrays of embedding indices of the title of the product in {click|order} logs. <br />
