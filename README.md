@@ -70,9 +70,8 @@ Each file has three columns:
 <br />
 <li><i>LambdaMART_files:</i>https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/LambdaMART_files.7z</li>
 It contains files in SVMLight format, as required by RankLib Tool ( https://sourceforge.net/p/lemur/wiki/RankLib/). These files are provided for ease of reproducing the results. 
-
 <br />
-
+<br />
 <li><i>logs:</i>https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/logs.7z</li>
 It contains two files, click_logs and order_logs. It has following columns:<br />
 <ul>
