@@ -95,7 +95,7 @@ def cnn_model(max_ques_len, max_ans_len, embedding, addit_feat_len, no_conv_filt
     model = Model(inputs=[input_q, input_a, input_addn_feat, input_weights], outputs=softmax)
     print(model.summary())
 
-    adam = optimizers.Adam(lr = 0.0001, beta_2=0.99999)    
+    adam = optimizers.Adam(lr = 0.00001, beta_2=0.99999)    
     model.compile(optimizer=adam,
                   loss=counterfactual_risk_loss(input_weights))
 
