@@ -32,8 +32,6 @@ Our clients (sellers) have proprietary rights on the product title and descripti
 This zip file contains <i>embeddings.npy</i>, which is the embedding matrix, with each row represnting 100-dimensional word vector.
 
 
-
-
 <li><i>Embeddings_Index_files:</i> https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/Embeddings_Index_files.7z</li>
 This zip file has 10 files containing indices which maps words ( of queries and product title) to their emeddings in the embedding matrix. Each row in these files is aligned with respective entry in tran, dev, test and log files.
 <br />
@@ -47,9 +45,15 @@ This zip file has 10 files containing indices which maps words ( of queries and 
 <li>{click|order}_logs_products.npy</i> files are numpy arrays of embedding indices of the title of the product in {click|order} logs. <br /><br /></li>
 </ul></li>
 
-The following files contain train, dev, test sets for with Normalized Relevance Rates (supervisory labels by aggregating data, see paper for detials):
+
 <li><i>Supervised_ClicksNRR_files:</i> https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/Supervised_ClickNRR_files.7z</li>
+
+This zip files contains train, dev, test sets for with Normalized Relevance Rates (NRR) for clicks on products, i.e. supervisory labels by aggregating log data (see paper for detials).
+
 <li><i>Supervised_OrdersNRR_files:</i>https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/Supervised_OrderNRR_files.7z</li>
+
+This zip files contains train, dev, test sets for with Normalized Relevance Rates (NRR) for orders of products, i.e. supervisory labels by aggregating log data (see paper for detials).
+
 <li><i>LambdaMART_files:</i>https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/LambdaMART_files.7z</li>
 </ul>  
 
