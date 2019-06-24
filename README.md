@@ -56,6 +56,7 @@ Each file has three columns:<br />
 <li>addn_feat: Additional features corresponding to the product returned by the system. Float values separated by comma stored as string.</li>
 <li>click_NRR: Click Normalized Relevance Rates (NRR)</li>
 </ul>  
+<br />
 
 <li><i>Supervised_OrdersNRR_files:</i>https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/Supervised_OrderNRR_files.7z</li>
 
@@ -68,9 +69,11 @@ Each file has three columns:<br />
 <li>order_NRR: Order Normalized Relevance Rates (NRR)</li>
 </ul>  
 
+<br />
 <li><i>LambdaMART_files:</i>https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/LambdaMART_files.7z</li>
 It contains files in SVMLight format, as required by RankLib Tool ( https://sourceforge.net/p/lemur/wiki/RankLib/). These files are provided for ease of reproducing the results. 
-</ul>  
+</ul> 
+<br />
 
 <li><i>logs:</i>https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/logs.7z</li>
 It contains two files, click_logs and order_logs. It has following columns:<br />
@@ -81,7 +84,7 @@ It contains two files, click_logs and order_logs. It has following columns:<br /
 <li>qid: Unique identifier of user query.</li>
 <li>addn_feat: Additional features corresponding to the product returned by the system. Float values separated by comma stored as string.</li>
 </ul>
-
+<br />
 <h3>Neural network architecture</h3>
 We selected a simple yet powerful CNN model proposed by Severyn et.al [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.723.6492&rep=rep1&type=pdf] for empirical evaluation of our CRM approach. The figure below depicts the architecture of the neural network. This figure is taken from the paper of Severyn et.al. The implementation in Keras was adapted from https://github.com/gvishal/rank_text_cnn. 
 
