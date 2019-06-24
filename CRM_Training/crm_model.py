@@ -33,7 +33,7 @@ def counterfactual_risk_loss(weights):
 
     return compute_loss
 
-def cnn_model(max_ques_len, max_ans_len, embedding, addit_feat_len, no_conv_filters=100, dropout_rate = 0.5):
+def crm_model(max_ques_len, max_ans_len, embedding, addit_feat_len, no_conv_filters=100, dropout_rate = 0.5):
     
     print('Model parameters are: ')
     print('Question length: {}, Answer length {}:, Embedding shape: {}, Additional features length: {}, Num conv filters: {}'.format(max_ques_len, max_ans_len, embedding.shape, addit_feat_len, no_conv_filters))
