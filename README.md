@@ -21,22 +21,17 @@ This repository hosts the experimental code used in CIKM 2019 paper "Counterfact
     </ul></li>
 </ul>
 
-<h3>E-commerce logs datasets for query-document text pairs</h3>
-Upload Supervised_ClicksNRR_files
-Upload Supervised_OrdersNRR_files
-Upload Embeddings_Index_files
-Upload logs
-
+<h3>Mercateo Dataset: E-commerce dataset for LTR</h3>
 
 Datasets can be accessed via following links:<br />
 <ul>
-  will be uploaded soon
 
+<li><i>Embeddings:</i> https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/embeddings.7z</li>
 
-
+Description:
 Due to privacy reasons we are not allowed to publish the raw text of queries and product titles. As many of the neural information retrieval models use word embeddings for training, we publish our own 100-dimensional embeddings. They were obtained by applying GloVe model to the corpus formed by the queries and product titles.
 The embeddings.npy file is embedding matrix, where each row is 100-dimensional word vector.
-<li><i>Embeddings:</i> https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/embeddings.7z</li>
+
 
 This zip file has 10 files that contain the information that maps words ( of queries and product title) to their emeddings in the embedding matrix. Each row in these files is aligned with respective entry in tran, dev, test and log files.
 <li><i>Embeddings_Index_files:</i> https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/Embeddings_Index_files.7z</li>
