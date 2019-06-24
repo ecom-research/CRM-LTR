@@ -1,6 +1,6 @@
 <h1>Learning to Rank E-Commerce Products from Logged Data</h1>
 
-This repository hosts the experimental code used in SIGIR 2019 paper "Learning to Rank E-Commerce Products from Logged Data".
+This repository hosts the experimental code used in CIKM 2019 paper "Counterfactual Learning from Logs for Improved Ranking of E-Commerce Products". [CURRENTLY UNDER REVIEW]
 
 <h3>Repository structure</h3>
 <ul>
