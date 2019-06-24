@@ -6,8 +6,8 @@ This repository hosts the experimental code used in CIKM 2019 paper "Counterfact
 <ul>
   <li>CRM_model
     <ul>
-      <li>crm_training_clicks.ipynb: Jupyter notebook with code for training CRM model.</li>
-      <li>crm_training_orders.ipynb: Jupyter notebook with code for training CRM model.</li>
+      <li>crm_training_clicks.ipynb: Jupyter notebook with code for training CRM model from click logs [Reproducing results of Table 3,4,5 of paper].</li>
+      <li>crm_training_orders.ipynb: Jupyter notebook with code for training CRM model from order logs [Reproducing results of Table 6 of paper].</li>
       <li>model.py: Keras implementation of CNN for short text pairs as well as counterfactual risk loss function.</li>
     </ul></li>
   <li>baseline_model
