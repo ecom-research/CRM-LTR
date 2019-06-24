@@ -74,7 +74,7 @@ The architecture of the neural network for estimating relevance of text pairs, t
 <h3>Depdendencies</h3>
 
 <ul>
-<li>python 2.7+</li>
+<li>python 2.7 or higher</li>
 <li>numpy</li>
 <li>keras</li>
 </ul>
