@@ -50,7 +50,7 @@ This zip file has 10 files containing indices which maps words ( of queries and 
 
 This zip file contains train, dev, test sets with Normalized Relevance Rates (NRR) for clicks on products, i.e. supervisory labels by aggregating log data (see paper for details).
 
-Each file has three columns:<br />
+Each file has three columns:
 <ul>
 <li>qid: Unique identifier of user query.</li>
 <li>addn_feat: Additional features corresponding to the product returned by the system. Float values separated by comma stored as string.</li>
@@ -62,7 +62,7 @@ Each file has three columns:<br />
 
 This zip file contains train, dev, test sets for with Normalized Relevance Rates (NRR) for orders of products, i.e. supervisory labels by aggregating log data (see paper for details).
 
-Each file has three columns:<br />
+Each file has three columns:
 <ul>
 <li>qid: Unique identifier of user query.</li>
 <li>addn_feat: Additional features corresponding to the product returned by the system. Float values separated by comma stored as string.</li>
