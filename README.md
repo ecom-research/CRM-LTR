@@ -28,9 +28,9 @@ Datasets can be accessed via following links:<br />
 
 <li><i>Embeddings:</i> https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/embeddings.7z</li>
 
-Description:
-Due to privacy reasons we are not allowed to publish the raw text of queries and product titles. As many of the neural information retrieval models use word embeddings for training, we publish our own 100-dimensional embeddings. They were obtained by applying GloVe model to the corpus formed by the queries and product titles.
-The embeddings.npy file is embedding matrix, where each row is 100-dimensional word vector.
+Our clients (sellers) have proprietary rights on the product title and description available on our platform. So, raw text can not be published in Mercateo dataset. Therefore, we train GloVe model on the corpus comprising of queries and product titles to learn word embeddings. We publish these 100- dimensional word embeddings. We think they will be useful for further research since most neural information retrieval models can be trained from word embeddings.
+This zip file contains <i>embeddings.npy</i>, which is the embedding matrix, with each row represnting 100-dimensional word vector.
+
 
 
 This zip file has 10 files that contain the information that maps words ( of queries and product title) to their emeddings in the embedding matrix. Each row in these files is aligned with respective entry in tran, dev, test and log files.
