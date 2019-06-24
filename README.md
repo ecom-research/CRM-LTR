@@ -96,6 +96,7 @@ For evaluation we use the standard tool used by TREC community for evaluating ad
 <li>python 2.7 or higher</li>
 <li>numpy</li>
 <li>keras</li>
+<li>trec_eval</li>
 </ul>
 
 For more information about the dataset and model please refer to the paper.
