@@ -48,38 +48,30 @@ This zip file has 10 files containing indices which maps words ( of queries and 
 
 <li><i>Supervised_ClicksNRR_files:</i> https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/Supervised_ClickNRR_files.7z</li>
 
-This zip file contains train, dev, test sets for with Normalized Relevance Rates (NRR) for clicks on products, i.e. supervisory labels by aggregating log data (see paper for details).
+This zip file contains train, dev, test sets with Normalized Relevance Rates (NRR) for clicks on products, i.e. supervisory labels by aggregating log data (see paper for details).
+*Each file has contains three columns:<br />
+<ul>
+<li>qid: Unique identifier of user query.</li>
+<li>addn_feat: Additional features corresponding to the product returned by the system. Float values separated by comma stored as string.</li>
+<li>click_NRR: Click Normalized Relevance Rates (NRR)</li>
+</ul>  
 
 <li><i>Supervised_OrdersNRR_files:</i>https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/Supervised_OrderNRR_files.7z</li>
 
 This zip file contains train, dev, test sets for with Normalized Relevance Rates (NRR) for orders of products, i.e. supervisory labels by aggregating log data (see paper for details).
+*Each file has contains three columns:<br />
+<ul>
+<li>qid: Unique identifier of user query.</li>
+<li>addn_feat: Additional features corresponding to the product returned by the system. Float values separated by comma stored as string.</li>
+<li>order_NRR: Order Normalized Relevance Rates (NRR)</li>
+</ul>  
 
 <li><i>LambdaMART_files:</i>https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/LambdaMART_files.7z</li>
 It contains files in SVMLight format, as required by RankLib Tool ( https://sourceforge.net/p/lemur/wiki/RankLib/). These files are provided for ease of reproducing the results. 
 </ul>  
 
-Each dataset folder contains 3 types of files, with 3 files for each type (9 files in total), e.g. click logs contain following files
-<ul>
-  <li>click_rel_dev.csv</li>
-  <li>click_rel_test.csv</li>
-  <li>click_rel_train.csv</li>
-  <li>products_dev.npy</li>
-  <li>products_test.npy</li>
-  <li>products_train.npy</li>
-  <li>queries_dev.npy</li>
-  <li>queries_test.npy</li>
-  <li>queries_test.npy</li>
-</ul>
-
-<h4>Dataset description</h4>
 
 
-*Click_rel_{dev|test}.csv* contains three columns:<br />
-<ul>
-<li>qid: Unique identifier of user query. Consecutive integer values starting with 0.</li>
-<li>addn_feat: Additional features corresponding to the product returned by the system. Float values separated by comma stored as string.</li>
-<li>relevance: click or order binary relevance indicator</li>
-</ul>  
 
 *Click_rel_train.csv* does not contain relevance column, but instead contains following additional columns:<br />
 <ul>
