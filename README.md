@@ -17,7 +17,7 @@ This repository hosts the experimental code used in CIKM 2019 paper "Counterfact
   <li>utils
     <ul>
       <li>utils.py: contains function batch_gen() used to generate batches at training time.</li>
-      <li>evaluation_metrics.py: contains function get_trec_eval_metrics(). This function creates submission file for trec_eval (https://trec.nist.gov/trec_eval/), stores it in trec_eval folder and runs evaluation.</li>
+      <li>evaluation_metrics.py: contains function get_trec_eval_metrics(). This function returns evaluation results using the evaluation tool <i>trec_eval</li>
     </ul></li>
 </ul>
 
