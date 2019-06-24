@@ -67,7 +67,7 @@ Each dataset folder contains 3 types of files, with 3 files for each type (9 fil
 </ul>
 
 <h3>Neural network architecture</h3>
-The architecture of the neural network for estimating relevance of text pairs, that we use in our experiments was introduced in http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.723.6492&rep=rep1&type=pdf. The figure below depicts this architecture. The implementation in Keras was adapted from https://github.com/gvishal/rank_text_cnn. 
+We selected a simple yet powerful CNN model proposed by Severyn et.al [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.723.6492&rep=rep1&type=pdf] for empirical evaluation of our CRM approach. The figure below depicts the architecture of the neural network. This figure is taken from the paper of Severyn et.al. The implementation in Keras was adapted from https://github.com/gvishal/rank_text_cnn. 
 
 ![Deep learning architecture for reranking short text pairs](https://pangolulu.github.io/assets/img/dl-ir/sigir_2015.png)
 
