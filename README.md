@@ -33,9 +33,10 @@ This repository hosts the experimental code used in CIKM 2019 paper "Counterfact
   </li>
   <li> In order to evaluate the saved model on other metrics {NDCG@5,P@5,P@10,RR,MAP}, run this command:
       <br />
-```
-    java -jar RankLib-2.1-patched.jar-load ~/Model_LMART_Graded_Orders.txt -test ~/LambdaMART_files/New_Graded_Order_DevFile.csv -metric2T NDCG@5
-    ``` 
+    <pre>
+    java -jar RankLib-2.1-patched.jar-load ~/Model_LMART_Graded_Orders.txt -test
+    ~/LambdaMART_files/New_Graded_Order_DevFile.csv -metric2T NDCG@5
+     </pre>
   </li>
     
     
