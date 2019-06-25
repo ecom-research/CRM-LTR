@@ -3,6 +3,8 @@
 This repository hosts the experimental code used in CIKM 2019 paper "Counterfactual Learning from Logs for Improved Ranking of E-Commerce Products". [CURRENTLY UNDER REVIEW]
 
 <h3>Reproducing the results</h3>
+First install Jupyter Notebook using following command: (For details, click <a href="https://jupyter.readthedocs.io/en/latest/install.html">here</a>)
+<pre> pip3 install jupyter </pre>
 <ul>
   <li>CRM_Training
     <ul>
@@ -54,6 +56,7 @@ For evaluation we use the standard tool used by TREC community for evaluating ad
 <h3>Depdendencies</h3>
 
 <ul>
+<li>Jupyter Notebook</li>
 <li>python 2.7 or higher</li>
 <li>numpy</li>
 <li>keras</li>
