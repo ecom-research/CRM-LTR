@@ -16,7 +16,7 @@ This repository hosts the experimental code used in CIKM 2019 paper "Counterfact
       <li>cross_entropy_training_orders.ipynb: Run this jupyter notebook for training CNN model with cross entropy loss [Reproducing results of Table 6 of paper].</li>
       <li>model_cross_entropy.py: Keras implementation of CNN for short text pairs with cross-entropy loss.</li>
     </ul></li>
-  
+</ul>  
     <li>LambdaMART Training</li>
     <ul>  
       <li>Download the binary file of RankLib tool from <a href="https://sourceforge.net/projects/lemur/files/lemur/RankLib-2.1/">here</a>. </li>
