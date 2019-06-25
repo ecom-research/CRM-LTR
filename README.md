@@ -2,22 +2,28 @@
 
 This repository hosts the experimental code used in CIKM 2019 paper "Counterfactual Learning from Logs for Improved Ranking of E-Commerce Products". [CURRENTLY UNDER REVIEW]
 
-<h3>Repository structure</h3>
+<h3>Reproducing the results</h3>
 <ul>
   <li>CRM_Training
     <ul>
-      <li>crm_training_clicks.ipynb: Jupyter notebook with code for training CRM model from click logs [Reproducing results of Table 3, 4, 5 of paper].</li>
-      <li>crm_training_orders.ipynb: Jupyter notebook with code for training CRM model from order logs [Reproducing results of Table 6 of paper].</li>
+      <li>crm_training_clicks.ipynb: Run this jupyter notebook for training CRM model from click logs [Reproducing results of Table 3, 4, 5 of paper].</li>
+      <li>crm_training_orders.ipynb: Run this jupyter notebook for training CRM model from order logs [Reproducing results of Table 6 of paper].</li>
       <li>crm_model.py: Keras implementation of CNN for short text pairs with counterfactual risk minimization (CRM) loss function.</li>
     </ul></li>
   <li>Cross_Entropy_Training
-    <ul>  
+    <ul> 
+      <li> cross_entropy_training_clicks.ipnyb: Run this jupyter notebook for training CNN model with cross entropy loss [Reproducing results of Table 3, 4, 5 of paper].</li>
+      <li>cross_entropy_training_orders.ipynb: Run this jupyter notebook for training CNN model with cross entropy loss [Reproducing results of Table 6 of paper].</li>
       <li>model_cross_entropy.py: Keras implementation of CNN for short text pairs with cross-entropy loss.</li>
     </ul></li>
   <li>utils
     <ul>
       <li>utils.py: contains function batch_gen() used to generate batches at training time.</li>
       <li>evaluation_metrics.py: contains function get_trec_eval_metrics(). This function returns evaluation results using the evaluation tool <i>trec_eval.</li>
+    </ul></li>
+    <li>LambdaMART Training
+    <ul>  
+      <l>Download the binary file of RankLib tool from <a href="https://sourceforge.net/projects/lemur/files/lemur/RankLib-2.1/">here</a>. </l>
     </ul></li>
 </ul>
 
