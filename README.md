@@ -40,7 +40,7 @@ If you are not familiar with running notebook, click <a href="https://jupyter.re
     ~/LambdaMART_files/New_Graded_Order_DevFile.csv -metric2T NDCG@5 </pre>
   </li>
     
-    
+</ul>    
 </ul>
 
 <h3>Mercateo Dataset: E-commerce dataset for LTR</h3>
