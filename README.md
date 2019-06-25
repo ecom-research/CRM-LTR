@@ -56,7 +56,6 @@ For evaluation we use the standard tool used by TREC community for evaluating ad
 <h3>Depdendencies</h3>
 
 <ul>
-<li>Jupyter Notebook</li>
 <li>python 2.7 or higher</li>
 <li>numpy</li>
 <li>keras</li>
