@@ -2,6 +2,18 @@
 
 This repository hosts the experimental code used in CIKM 2019 paper "Counterfactual Learning from Logs for Improved Ranking of E-Commerce Products". [CURRENTLY UNDER REVIEW]
 
+<h3>Mercateo Dataset: E-commerce dataset for LTR</h3>
+The dataset and its description can be found <a href="Mercateo Dataset Description.md">here</a>.
+
+<h3>Neural network architecture</h3>
+We selected a simple yet powerful CNN model proposed by Severyn et.al [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.723.6492&rep=rep1&type=pdf] for empirical evaluation of our CRM approach. The figure below depicts the architecture of the neural network. This figure is taken from the paper of Severyn et.al. The implementation in Keras was adapted from https://github.com/gvishal/rank_text_cnn. 
+
+![Deep learning architecture for reranking short text pairs](https://pangolulu.github.io/assets/img/dl-ir/sigir_2015.png)
+
+<h3>Evaluation</h3>
+<li>For evaluation we use the standard tool used by TREC community for evaluating ad-hoc retrieval tasks <i>trec_eval</i>. The latest version of this tool can be found <a href="https://github.com/usnistgov/trec_eval">here</a>. </li>
+<li>evaluation_metrics.py: contains function get_trec_eval_metrics(). This function returns evaluation results using the evaluation tool <i>trec_eval.</li></i>
+
 <h3>Reproducing the results</h3>
 First install Jupyter Notebook using following command: (For details, click <a href="https://jupyter.readthedocs.io/en/latest/install.html">here</a>)
 <pre> pip3 install jupyter </pre>
@@ -43,18 +55,6 @@ Download the treac_eval tool and Mercateo Dataset.
     
 </ul>    
 </ul>
-
-<h3>Mercateo Dataset: E-commerce dataset for LTR</h3>
-The dataset and its description can be found <a href="Mercateo Dataset Description.md">here</a>.
-
-<h3>Neural network architecture</h3>
-We selected a simple yet powerful CNN model proposed by Severyn et.al [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.723.6492&rep=rep1&type=pdf] for empirical evaluation of our CRM approach. The figure below depicts the architecture of the neural network. This figure is taken from the paper of Severyn et.al. The implementation in Keras was adapted from https://github.com/gvishal/rank_text_cnn. 
-
-![Deep learning architecture for reranking short text pairs](https://pangolulu.github.io/assets/img/dl-ir/sigir_2015.png)
-
-<h3>Evaluation</h3>
-<li>For evaluation we use the standard tool used by TREC community for evaluating ad-hoc retrieval tasks <i>trec_eval</i>. The latest version of this tool can be found <a href="https://github.com/usnistgov/trec_eval">here</a>. </li>
-<li>evaluation_metrics.py: contains function get_trec_eval_metrics(). This function returns evaluation results using the evaluation tool <i>trec_eval.</li></i>
 
 <h3>Depdendencies</h3>
 
