@@ -49,7 +49,7 @@ Download the treac_eval tool and Mercateo Dataset.
   </li>
   <li> In order to evaluate the saved model on other metrics {NDCG@5,P@5,P@10,RR,MAP}, run this command:
       <br />
-    <pre> java -jar RankLib-2.1-patched.jar-load Model_LMART_Graded_Orders.txt -test
+    <pre> java -jar RankLib-2.1-patched.jar -load Model_LMART_Graded_Orders.txt -test
     LambdaMART_files/New_Graded_Order_DevFile.csv -metric2T NDCG@5 </pre>
   </li>
     
@@ -66,4 +66,4 @@ Download the treac_eval tool and Mercateo Dataset.
 </ul>
 
 For more information about the dataset and model please refer to the paper.
-For any questions, you can report issue here.<br /><br />
+For any questions/bugs, you can report issue here.<br /><br />
