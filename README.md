@@ -53,7 +53,7 @@ We selected a simple yet powerful CNN model proposed by Severyn et.al [http://ci
 ![Deep learning architecture for reranking short text pairs](https://pangolulu.github.io/assets/img/dl-ir/sigir_2015.png)
 
 <h3>Evaluation</h3>
-For evaluation we use the standard tool used by TREC community for evaluating ad-hoc retrieval tasks <i>trec_eval</i>. The latest version of this tool can be found <a href="https://github.com/usnistgov/trec_eval">here</a>. 
+<li>For evaluation we use the standard tool used by TREC community for evaluating ad-hoc retrieval tasks <i>trec_eval</i>. The latest version of this tool can be found <a href="https://github.com/usnistgov/trec_eval">here</a>. </li>
 <li>evaluation_metrics.py: contains function get_trec_eval_metrics(). This function returns evaluation results using the evaluation tool <i>trec_eval.</li></i>
 
 <h3>Depdendencies</h3>
