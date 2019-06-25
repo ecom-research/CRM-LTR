@@ -43,7 +43,6 @@ If you are not familiar with running notebook, click <a href="https://jupyter.re
     
 </ul>
 
-</i>
 <h3>Mercateo Dataset: E-commerce dataset for LTR</h3>
 The dataset and its description can be found <a href="Mercateo Dataset Description.md">here</a>.
 
