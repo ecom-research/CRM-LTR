@@ -19,15 +19,15 @@ This repository hosts the experimental code used in CIKM 2019 paper "Counterfact
   <li>utils
     <ul>
       <li>utils.py: contains function batch_gen() used to generate batches at training time.</li>
-      <li>evaluation_metrics.py: contains function get_trec_eval_metrics(). This function returns evaluation results using the evaluation tool <i>trec_eval.</li>
+      <li>evaluation_metrics.py: contains function get_trec_eval_metrics(). This function returns evaluation results using the evaluation tool <i>trec_eval.</li></i>
     </ul></li>
     <li>LambdaMART Training</li>
     <ul>  
-      <l>Download the binary file of RankLib tool from <a href="https://sourceforge.net/projects/lemur/files/lemur/RankLib-2.1/">here</a>. </l>
-      <l> We used latest binary 'RankLib-2.1-patched.jar' for our experiments. </l>
-      <l> Train LambdaMART model, for Graded Order Labels [Table 6], by running this command: 
+      <li>Download the binary file of RankLib tool from <a href="https://sourceforge.net/projects/lemur/files/lemur/RankLib-2.1/">here</a>. </li>
+      <li> We used latest binary 'RankLib-2.1-patched.jar' for our experiments. </li>
+      <li> Train LambdaMART model, for Graded Order Labels [Table 6], by running this command: 
         < /br>
-          " java -jar RankLib-2.1-patched.jar -train ~/New_Graded_Order_TrainFile.csv -test ~/New_Graded_Order_TestFile.csv -validate ~/New_Graded_Order_DevFile.csv -ranker 6 -metric2t NDCG@10 -metric2T NDCG@10 -save ~/Model_LMART_Graded_Orders.txt " </l>
+          " java -jar RankLib-2.1-patched.jar -train ~/New_Graded_Order_TrainFile.csv -test ~/New_Graded_Order_TestFile.csv -validate ~/New_Graded_Order_DevFile.csv -ranker 6 -metric2t NDCG@10 -metric2T NDCG@10 -save ~/Model_LMART_Graded_Orders.txt " </li>
     </ul></li>
 </ul>
 
