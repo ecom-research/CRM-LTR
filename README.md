@@ -5,6 +5,9 @@ This repository hosts the experimental code used in CIKM 2019 paper "Counterfact
 <h3>Reproducing the results</h3>
 First install Jupyter Notebook using following command: (For details, click <a href="https://jupyter.readthedocs.io/en/latest/install.html">here</a>)
 <pre> pip3 install jupyter </pre>
+
+If you are not familiar with running notebook, click <a href="https://jupyter.readthedocs.io/en/latest/running.html">here</a>.
+
 <ul>
   <li>CRM_Training
     <ul>
