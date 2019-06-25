@@ -16,11 +16,7 @@ This repository hosts the experimental code used in CIKM 2019 paper "Counterfact
       <li>cross_entropy_training_orders.ipynb: Run this jupyter notebook for training CNN model with cross entropy loss [Reproducing results of Table 6 of paper].</li>
       <li>model_cross_entropy.py: Keras implementation of CNN for short text pairs with cross-entropy loss.</li>
     </ul></li>
-  <li>utils
-    <ul>
-      <li>utils.py: contains function batch_gen() used to generate batches at training time.</li>
-      <li>evaluation_metrics.py: contains function get_trec_eval_metrics(). This function returns evaluation results using the evaluation tool <i>trec_eval.</li></i>
-    </ul></li>
+  
     <li>LambdaMART Training</li>
     <ul>  
       <li>Download the binary file of RankLib tool from <a href="https://sourceforge.net/projects/lemur/files/lemur/RankLib-2.1/">here</a>. </li>
@@ -38,6 +34,7 @@ This repository hosts the experimental code used in CIKM 2019 paper "Counterfact
     ``` 
   </li>
     
+    
 </ul>
 
 </i>
@@ -50,7 +47,8 @@ We selected a simple yet powerful CNN model proposed by Severyn et.al [http://ci
 ![Deep learning architecture for reranking short text pairs](https://pangolulu.github.io/assets/img/dl-ir/sigir_2015.png)
 
 <h3>Evaluation</h3>
-For evaluation we use the standard tool used by TREC community for evaluating ad-hoc retrieval tasks <i>trec_eval</i>. The latest version of this tool can be found <a href="https://github.com/usnistgov/trec_eval">here</a>.
+For evaluation we use the standard tool used by TREC community for evaluating ad-hoc retrieval tasks <i>trec_eval</i>. The latest version of this tool can be found <a href="https://github.com/usnistgov/trec_eval">here</a>. 
+<li>evaluation_metrics.py: contains function get_trec_eval_metrics(). This function returns evaluation results using the evaluation tool <i>trec_eval.</li></i>
 
 <h3>Depdendencies</h3>
 
