@@ -1,4 +1,4 @@
-<h1>Counterfactual Learning from Logs for Improved Ranking of E-Commerce Products</h1>
+<h1>Mend Your Learning Approach, Not the Data for Ranking E-Commerce Products</h1>
 
 <h3>Commercial Dataset: E-commerce dataset for LTR</h3>
 The dataset and its description can be found <a href="Mercateo Dataset Description.md">here</a>.
