@@ -3,7 +3,7 @@
 Mecateo Dataset contains queries from real users, actions taken by the policy running on the system, probability of these actions and feedback of users on those actions. Most queries included in this dataset are those which were really challenging for our current ranking algorithm. It can be accessed via following links:<br />
 <ul>
 
-<li><i>Embeddings:</i> https://s3.eu-central-1.amazonaws.com/ltr-log-dataset/embeddings.7z</li>
+<li><i>Embeddings:</i> https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/embeddings.7z</li>
 
 Our clients (sellers) have proprietary rights on the product title and description available on our platform. So, raw text can not be published in Mercateo dataset. Therefore, we train GloVe model on the corpus comprising of queries and product titles to learn word embeddings. We publish these 100- dimensional word embeddings. We think they will be useful for further research since most neural information retrieval models can be trained from word embeddings.
 This zip file contains <i>embeddings.npy</i>, which is the embedding matrix, with each row represnting 100-dimensional word vector.
