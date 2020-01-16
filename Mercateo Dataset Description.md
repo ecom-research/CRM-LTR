@@ -1,6 +1,6 @@
 <h1>Mercateo Dataset: E-commerce dataset for LTR</h1>
 
-Mecateo Dataset contains queries from real users, actions taken by the policy running on the system, probability of these actions and feedback of users on those actions. Although there are plenty of feedback signals logged by E-Com platforms, but we considered only two most common feedback signals in our dataset. One is Add-to-Basket (AtB) click (we refer it sometime as just clicks) on the results shown in response to query and second is the order signal on the same list of results. Most queries included in this dataset are those which were really challenging for our current ranking algorithm. It can be accessed via following links:<br />
+Mecateo Dataset contains queries from real users, actions taken by the policy running on the system, probability of these actions and feedback of users on those actions. Although there are plenty of feedback signals logged by E-Com platforms, but we considered only two most common feedback signals in our dataset. One is Add-to-Basket (AtB) click (we also refer to AtB click as simply clicks in filenames etc) on the results shown in response to query and second is the order signal on the same list of results. Most queries included in this dataset are those which were really challenging for our current ranking algorithm. It can be accessed via following links:<br />
 <ul>
 
 <li><i>Embeddings:</i> https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/embeddings.7z</li>
