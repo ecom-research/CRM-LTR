@@ -1,6 +1,6 @@
 <h1>Mercateo Dataset: E-commerce dataset for LTR</h1>
 
-Mecateo Dataset contains queries from real users, actions taken by the policy running on the system, probability of these actions and feedback of users on those actions. Most queries included in this dataset are those which were really challenging for our current ranking algorithm. It can be accessed via following links:<br />
+Mecateo Dataset contains queries from real users, actions taken by the policy running on the system, probability of these actions and feedback of users on those actions. Although there are plenty of feedback signals logged by E-Com platforms, but we considered only two most common feedback signals in our dataset. One is Add-to-Basket (AtB) click (we refer it sometime as just clicks) on the results shown in response to query and second is the order signal on the same list of results. Most queries included in this dataset are those which were really challenging for our current ranking algorithm. It can be accessed via following links:<br />
 <ul>
 
 <li><i>Embeddings:</i> https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/embeddings.7z</li>
@@ -17,20 +17,20 @@ This zip file has 10 files containing indices which maps words ( of queries and 
   <li>Queries_{train|dev|test}.npy</i> files contain numpy arrays of query word indices used for lookup in embedding matrix. Most LTR neural networks require the length of query and document be fixed for all samples. Since number of words in queries and products varies a lot, we set query length to 40 and length of product title to 48. We do padding with randomly generated vector for texts with lower length and cut-off texts of higher length. <br /><br /></li>
   <li>Products_{train|dev|test}.npy</i> files are numpy arrays of the title of the product returned by the system as a response to the query. Similar to query it contains integer values representing the position of GloVe vector in word-embedding matrix. Product title was also padded with 1738783 values.<br /><br /></li>
   
-  <li>{click|order}_logs_queries.npy</i> files are numpy arrays of embedding indices of the queries in {click|order} logs. <br /><br /></li>
+  <li>{click|order}_logs_queries.npy</i> files are numpy arrays of embedding indices of the queries in {AtB click|order} logs. <br /><br /></li>
 
-<li>{click|order}_logs_products.npy</i> files are numpy arrays of embedding indices of the title of the product in {click|order} logs. <br /><br /></li>
+<li>{click|order}_logs_products.npy</i> files are numpy arrays of embedding indices of the title of the product in {AtB click|order} logs. <br /><br /></li>
 </ul></li>
 
 
 <li><i>Supervised_ClicksNRR_files:</i> https://ltr-log-dataset.s3.eu-central-1.amazonaws.com/Supervised_ClickNRR_files.7z</li>
 
-This zip file contains train, dev, test sets with Normalized Relevance Rates (NRR) for clicks on products, i.e. supervisory labels by aggregating log data (see paper for details).
+This zip file contains train, dev, test sets with Normalized Relevance Rates (NRR) for AtB clicks on products, i.e. supervisory labels by aggregating log data (see paper for details).
 Each file has three columns:
 <ul>
 <li>qid: Unique identifier of user query.</li>
 <li>addn_feat: Additional features corresponding to the product returned by the system. Float values separated by comma stored as string.</li>
-<li>click_NRR: Click Normalized Relevance Rates (NRR)</li>
+<li>click_NRR: AtB Click Normalized Relevance Rates (NRR)</li>
 </ul>  
 <br />
 
