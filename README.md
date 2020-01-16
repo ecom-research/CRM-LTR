@@ -67,4 +67,5 @@ Download the treac_eval tool and Mercateo Dataset.
 </ul>
 
 For more information about the dataset and model please refer to the paper.
-For any questions/bugs, you can report issue here.<br /><br />
+For any questions/bugs, you can report issue here.
+Note: Updates to the repository coming soon. <br /><br />
