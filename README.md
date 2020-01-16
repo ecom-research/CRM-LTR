@@ -22,7 +22,7 @@ Download the treac_eval tool and Mercateo Dataset.
 <ul>
   <li>CRM_Training
     <ul>
-      <li>crm_training_clicks.ipynb: Run this jupyter notebook for training CRM model from click logs [Reproducing results of Table 3, 4, 5 of paper].</li>
+      <li>crm_training_clicks.ipynb: Run this jupyter notebook for training CRM model from AtB click logs [Reproducing results of Table 3, 4, 5 of paper].</li>
       <li>crm_training_orders.ipynb: Run this jupyter notebook for training CRM model from order logs [Reproducing results of Table 6 of paper].</li>
       <li>crm_model.py: Keras implementation of CNN for short text pairs with counterfactual risk minimization (CRM) loss function.</li>
     </ul></li>
