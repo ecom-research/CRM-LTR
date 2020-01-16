@@ -1,5 +1,8 @@
 <h1>Mend Your Learning Approach, Not the Data for Ranking E-Commerce Products</h1>
 
+This repository contains code and the Commercial Dataset needed for reproducing the results presented in the following paper: 
+<a href="https://arxiv.org/pdf/1907.10409.pdf">Counterfactual Learning from Logs for Ranking of E-Commerce Products</a>.
+
 <h3>Commercial Dataset: E-commerce dataset for LTR</h3>
 The dataset and its description can be found <a href="Mercateo Dataset Description.md">here</a>.
 
