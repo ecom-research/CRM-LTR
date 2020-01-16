@@ -22,14 +22,14 @@ Download the treac_eval tool and Mercateo Dataset.
 <ul>
   <li>CRM_Training
     <ul>
-      <li>crm_training_clicks.ipynb: Run this jupyter notebook for training CRM model from AtB click logs [Reproducing results of Table 3, 4, 5 of paper].</li>
-      <li>crm_training_orders.ipynb: Run this jupyter notebook for training CRM model from order logs [Reproducing results of Table 6 of paper].</li>
+      <li>crm_training_clicks.ipynb: Run this jupyter notebook for training CRM model from AtB click logs [Reproducing results of Table 2 of the paper].</li>
+      <li>crm_training_orders.ipynb: Run this jupyter notebook for training CRM model from order logs [Reproducing results of Table 3 of paper].</li>
       <li>crm_model.py: Keras implementation of CNN for short text pairs with counterfactual risk minimization (CRM) loss function.</li>
     </ul></li>
   <li>Cross_Entropy_Training
     <ul> 
-      <li> cross_entropy_training_clicks.ipnyb: Run this jupyter notebook for training CNN model with cross entropy loss [Reproducing results of Table 3, 4, 5 of paper].</li>
-      <li>cross_entropy_training_orders.ipynb: Run this jupyter notebook for training CNN model with cross entropy loss [Reproducing results of Table 6 of paper].</li>
+      <li> cross_entropy_training_clicks.ipnyb: Run this jupyter notebook for training CNN model with cross entropy loss [Reproducing results of Table 2 of paper].</li>
+      <li>cross_entropy_training_orders.ipynb: Run this jupyter notebook for training CNN model with cross entropy loss [Reproducing results of Table 3 of paper].</li>
       <li>model_cross_entropy.py: Keras implementation of CNN for short text pairs with cross-entropy loss.</li>
     </ul></li>
 </ul>  
