@@ -3,6 +3,9 @@
 This repository contains code and the Commercial Dataset needed for reproducing the results presented in the following paper: 
 <a href="https://arxiv.org/pdf/1907.10409.pdf">Counterfactual Learning from Logs for Ranking of E-Commerce Products</a>.
 
+Note: Updates to the repository coming soon.
+
+
 <h3>Commercial Dataset: E-commerce dataset for LTR</h3>
 The dataset and its description can be found <a href="Mercateo Dataset Description.md">here</a>.
 
@@ -68,4 +71,4 @@ Download the treac_eval tool and Mercateo Dataset.
 
 For more information about the dataset and model please refer to the paper.
 For any questions/bugs, you can report issue here.
-Note: Updates to the repository coming soon. <br /><br />
+ <br /><br />
