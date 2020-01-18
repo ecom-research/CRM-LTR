@@ -56,6 +56,23 @@ Download the treac_eval tool and Mercateo Dataset.
     <pre> java -jar RankLib-2.1-patched.jar -load Model_LMART_Graded_Orders.txt -test
     LambdaMART_files/New_Graded_Order_DevFile.csv -metric2T NDCG@5 </pre>
   </li>
+   <li>Affect of DNN architecture
+    <ul>  
+      <li> For reproducing the results in Table 4 of the paper, refer to 
+        MatchZoo <a href="https://github.com/NTMC-Community/MatchZoo/tree/master">here</a>. </li>
+      <li> We used latest binary 'RankLib-2.1-patched.jar' for our experiments. </li>
+      <li> Train LambdaMART model, for Graded Order Labels [Table 6], by running this command: 
+      <br />
+    <pre> java -jar RankLib-2.1-patched.jar -train LambdaMART_files/New_Graded_Order_TrainFile.csv 
+  -test LambdaMART_files/New_Graded_Order_TestFile.csv -validate LambdaMART_files/
+  New_Graded_Order_DevFile.csv -ranker 6 -metric2t NDCG@10 -metric2T NDCG@10 
+  -save Model_LMART_Graded_Orders.txt </pre>
+  </li>
+  <li> In order to evaluate the saved model on other metrics {NDCG@5,P@5,P@10,RR,MAP}, run this command:
+      <br />
+    <pre> java -jar RankLib-2.1-patched.jar -load Model_LMART_Graded_Orders.txt -test
+    LambdaMART_files/New_Graded_Order_DevFile.csv -metric2T NDCG@5 </pre>
+  </li>
     
 </ul>    
 </ul>
