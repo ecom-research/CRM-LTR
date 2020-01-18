@@ -64,9 +64,9 @@ Download the treac_eval tool and Mercateo Dataset.
          <a href="https://github.com/NTMC-Community/MatchZoo/tree/master">MatchZoo</a>. </li>
       <li> MatchZoo has comprehensive documentation on the dependencies and how to run the models.</li>
       <li> For a fair comparison with S-CNN model, we modified the models in MatchZoo and added a fully connected layer before the last layer. This layer is added so that we can utilize the dense features.   </li>
-  </li>
+</ul> </li>
     
-</ul>    
+   
 </ul>
 
 <h3>Dependencies</h3>
