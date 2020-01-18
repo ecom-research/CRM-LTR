@@ -56,10 +56,10 @@ Download the treac_eval tool and Mercateo Dataset.
     <pre> java -jar RankLib-2.1-patched.jar -load Model_LMART_Graded_Orders.txt -test
     LambdaMART_files/New_Graded_Order_DevFile.csv -metric2T NDCG@5 </pre>
   </li>
-      </ul> 
-    <ul>
-      <li>Affect of DNN architecture
-    <ul>  
+</ul> 
+<ul>
+<li>Affect of DNN architecture
+ <ul>  
       <li> For reproducing the results in Table 4 of the paper, refer to 
          <a href="https://github.com/NTMC-Community/MatchZoo/tree/master">MatchZoo</a>. </li>
       <li> MatchZoo has comprehensive documentation on the dependencies and how to run the models.</li>
