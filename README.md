@@ -38,9 +38,7 @@ Download the treac_eval tool and Mercateo Dataset.
       <li>cross_entropy_training_orders.ipynb: Run this jupyter notebook for training CNN model with cross entropy loss [Reproducing results of Table 3 of paper].</li>
       <li>model_cross_entropy.py: Keras implementation of CNN for short text pairs with cross-entropy loss.</li>
     </ul></li>
-</ul>  
-<ul>
-    <li>LambdaMART Training
+  <li>LambdaMART Training
     <ul>  
       <li>Download the binary file of RankLib tool from <a href="https://sourceforge.net/projects/lemur/files/lemur/RankLib-2.1/">here</a>. </li>
       <li> We used latest binary 'RankLib-2.1-patched.jar' for our experiments. </li>
@@ -56,8 +54,7 @@ Download the treac_eval tool and Mercateo Dataset.
     <pre> java -jar RankLib-2.1-patched.jar -load Model_LMART_Graded_Orders.txt -test
     LambdaMART_files/New_Graded_Order_DevFile.csv -metric2T NDCG@5 </pre>
   </li>
-</ul> 
-<ul>
+</ul> </li>
 <li>Affect of DNN architecture
  <ul>  
       <li> For reproducing the results in Table 4 of the paper, refer to 
