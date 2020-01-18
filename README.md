@@ -9,7 +9,7 @@ Note: Updates to the repository coming soon.
 <h3>Commercial Dataset: E-commerce dataset for LTR</h3>
 The dataset and its description can be found <a href="Mercateo Dataset Description.md">here</a>.
 
-<h3>Neural network architecture</h3>
+<h3>Neural network architecture of S-CNN</h3>
 We selected a simple yet powerful CNN model proposed by Severyn et.al [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.723.6492&rep=rep1&type=pdf] for empirical evaluation of our CRM approach. We refer to this model as S-CNN in the paper. The figure below depicts the architecture of the neural network. This figure is taken from the paper of Severyn et.al. The implementation in Keras was adapted from https://github.com/gvishal/rank_text_cnn. 
 
 ![Deep learning architecture for reranking short text pairs](https://pangolulu.github.io/assets/img/dl-ir/sigir_2015.png)
@@ -55,13 +55,15 @@ Download the treac_eval tool and Mercateo Dataset.
       <br />
     <pre> java -jar RankLib-2.1-patched.jar -load Model_LMART_Graded_Orders.txt -test
     LambdaMART_files/New_Graded_Order_DevFile.csv -metric2T NDCG@5 </pre>
-  </li></ul> 
-    <ul><li>Affect of DNN architecture
+  </li>
+      </ul> 
+    <ul>
+      <li>Affect of DNN architecture
     <ul>  
       <li> For reproducing the results in Table 4 of the paper, refer to 
          <a href="https://github.com/NTMC-Community/MatchZoo/tree/master">MatchZoo</a>. </li>
       <li> MatchZoo has comprehensive documentation on the dependencies and how to run the models.</li>
-      <li> For a fair comparison with S-CNN model, we modified the models in MatchZoo and added a fully connected layer before the last layer. This layer is added so that we can utilize the dense features. 
+      <li> For a fair comparison with S-CNN model, we modified the models in MatchZoo and added a fully connected layer before the last layer. This layer is added so that we can utilize the dense features.   </li>
   </li>
     
 </ul>    
