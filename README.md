@@ -1,7 +1,9 @@
-<h1>Mend Your Learning Approach, Not the Data for Ranking E-Commerce Products</h1>
+<h1>Mend The Learning Approach, Not the Data: Insights for Ranking E-Commerce Products
+</h1>
 
 This repository contains code and the Commercial Dataset needed for reproducing the results presented in the following paper: 
-<a href="https://arxiv.org/pdf/1907.10409.pdf">Counterfactual Learning from Logs for Ranking of E-Commerce Products</a>.
+<a href="https://arxiv.org/pdf/1907.10409.pdf">Mend The Learning Approach, Not the Data: Insights for Ranking E-Commerce Products
+</a>.
 
 Note: Updates to the repository coming soon.
 
